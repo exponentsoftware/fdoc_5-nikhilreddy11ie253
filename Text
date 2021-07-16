@@ -1,0 +1,24 @@
+//1.What is the difference between forEach, map, filter and reduce ? 
+map creates a new array by transforming every element in an array, 
+individually. filter creates a new array by removing elements that don't belong. reduce , on the other hand, 
+takes all of the elements in an array and reduces them into a single value. Just like map and filter , reduce is defined on Array
+
+//2.Explain these using your own words Explain the difference between function declaration and arrow function ?
+The method find() is very similar to findIndex() . The only difference is that the find method returns the element value,
+but the findIndex method returns the element index.
+
+//3.Explain the difference between find and findIndex ?
+JavaScript has a lot of useful methods that we can use to achieve certain operations in our development. The method find() and findIndex are two array methods that we can use in JavaScript.
+So in this article, we will learn about the methods find and findIndex by covering the differences between them. Let’s get right into it.
+
+//4.If you like to filter out one object element in an array which method do you like to use: filter or find ?
+The find() method returns the first value that matches from the collection. Once it matches the value in findings, it will not check the remaining values in the array collection. 
+ The filter() method returns the matched values in an array from the collection. It will check all values in the collection and return the matched values in an array.
+
+//5.Explain Explain the difference of var, let and const when we declare a variable ? 
+var declarations are globally scoped or function scoped while let and const are block scoped.
+-- var variables can be updated and re-declared within its scope; let variables can be updated but not re-declared; const variables can neither be updated nor re-declared. 
+-- They are all hoisted to the top of their scope. But while var variables are initialized with undefined, let and const variables are not initialized. 
+-- While var and let can be declared without being initialized, const must be initialized during declaration.
+
+‍
